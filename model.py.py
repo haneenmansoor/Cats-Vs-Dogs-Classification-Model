@@ -237,12 +237,3 @@ else:
   print("Prediction: Other")
   
 plt.imshow(img)
-
-"""for render"""
-
-!pip freeze > requirements.txt
-
-!pip install -r requirements.txt
-
-import sys
-print(sys.version)
