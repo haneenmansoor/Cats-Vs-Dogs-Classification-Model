@@ -11,7 +11,7 @@ import os
 
 app = Flask(__name__)
 
-model = load_model('model.h5')
+model = load_model('resnet50.h5')
 
 # Set max size of file as 10MB
 app.config['MAX_CONTENT_LENGTH'] = 10*1024*1024
